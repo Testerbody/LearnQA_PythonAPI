@@ -1,6 +1,4 @@
-from http.client import responses
-
 import requests
 
-response = requests.get("http://playground.learnqa.ru/api/hello")
+response = requests.get("http://playground.learnqa.ru/api/get_text")
 print(response.text)
